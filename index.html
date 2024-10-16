@@ -1,18 +1,20 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
+  <link rel="stylesheet" href="style.css">
+  <link rel="shortcut icon" href="imgs/logo.conscientiza.r.png">
 
-    <link rel="stylesheet" href="style.css">
+ <!-- ICONES -->
+ <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
-     <!-- ICONES -->
-     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-   <link rel="shortcut icon" href="imgs/logo.conscientiza.r.png">
+<link rel="shortcut icon" href="imgs/logo.conscientizar.rosa-removebg-preview.png">
 
-     <!-- FONTES -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <!-- FONTES -->
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+ <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+ <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 
 
     <!-- javascript MENU MOBILE -->
@@ -24,48 +26,46 @@
     <title> Conscientiza.r </title>
 </head>
 <body>
-
- 
+    
+    
     <header class="header">
         <div class="logo-img">
-        <img src="imgs/logo.conscientiza.r.png" alt="">
+        <img src="imgs/logo.conscientizar.rosa.jpg" alt="">
     </div>
 
-        <!-- DARKMODE   -->
-        <section class="darkmode">
+    <!-- DARKMODE -->
 
-            <label>
-                <input id="check" type="checkbox" id="check">
-        
-                <i class="fa-solid fa-sun" id="sun"></i>
-                <i class="fa-solid fa-moon" id="moon"></i>
-        
-                <span class="toggle"></span>
-            </label>
-        
-        </section>
-    
-        <script>
-            const check = document.getElementById('check');
-        
-            check.addEventListener('click', () => {
-                document.body.classList.toggle('dark-mode');
-            })
-        
-        
-        </script>
+<section class="darkmode">
 
-    <nav class="navbar">
+    <label>
+        <input id="check" type="checkbox" id="check">
+
+        <i class="fa-solid fa-sun" id="sun"></i>
+        <i class="fa-solid fa-moon" id="moon"></i>
+
+        <span class="toggle"></span>
+    </label>
+
+</section>
+
+<script>
+    const check = document.getElementById('check');
+
+    check.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+    })
+
+
+</script>
        
-          <a href="#inicio"> Inicio </a>
-        <a href="pesquisa.html"> Importância </a>
-        <a href="gabriel-m.html"> Setembro </a>
-        <a href=""> Outubro </a>
-        <a href=""> Novembro </a>
-    </nav>
+<nav class="navbar">
+    <a href="#inicio"> Inicio </a>
+    <a href="#origem"> Origem </a>
+    <a href="#importancia"> Importância</a>
+    <a href="#relatos"> Relatos</a>
+</nav>
 
 
-    
 <!-- MOBILE -->
 
 <div class="btn-abrir-menu" id="btn-menu"> <!-- COMEÇO ABRIR MENU -->
@@ -79,11 +79,11 @@
     </div>
 
     <nav class="mobile-nav">  <!-- COMEÇO NAVBAR MENU -->
-          <a href="#inicio"> Inicio </a>
-        <a href="pesquisa.html"> Relatos </a>
-        <a href="gabriel-m.html"> Gabriel Medina </a>
-        <a href=""> Pessoa 2 </a>
-        <a href=""> Pessoa 3 </a>
+        <a href="#inicio"> Inicio </a>
+        <a href="#origem"> Origem </a>
+        <a href="#importancia"> Importância</a>
+        <a href="#relatos"> Relatos</a>
+
     </nav> <!-- FINAL NAVBAR MENU -->
     
 </div> <!-- FINAL MENU MOBILE-->
@@ -91,6 +91,8 @@
 
 <!-- FIM MOBILE -->
 </header>
+
+      
 
 <!-- PARALLAX -->
 
@@ -101,62 +103,137 @@
 
     <section class="modulo content">
         <div class="container">
-            <h2> A importância da conscientização </h2>
-            <p> A conscientização sobre os <span class="span1">cuidados com a saúde</span> precisa ser parte da rotina da população. Quanto mais as pessoas estiverem atentas a estes <span class="span2">cuidados</span> melhor será a <span class="span3">qualidade de vida.</span> Essa questão também interfere na expectativa de vida.
+            <h2 class="titulinho"> Origem </h2>
+            <p>O <span>Outubro Rosa</span> tem suas raízes no movimento conhecido como <span>Race for the Cure</span>, que foi criado em 1983 pela fundação <span>Susan G</span>. Komen for the Cure, uma das maiores organizações de combate ao câncer de mama no mundo. A fundação foi criada em homenagem a Susan G. Komen, que morreu em 1980 em decorrência da doença. A partir daí, a organização começou a organizar eventos anuais, como corridas e caminhadas, para arrecadar fundos e aumentar a conscientização sobre o câncer de mama.</p>
 
-            </p>
+            <p>Foi durante esse período que o <span>laço rosa</span> se tornou o símbolo da luta contra o câncer de mama. Em 1991, os laços começaram a ser distribuídos aos participantes da primeira Corrida pela Cura em Nova York, e em 1997 a campanha passou a adotar o mês de outubro para a disseminação global da mensagem sobre a <span>mportância da prevenção</span>.</p>
+
+            <p class="pzinho">O Outubro Rosa é uma campanha mundial voltada para a conscientização sobre o câncer de mama, destacando a importância da prevenção e do diagnóstico precoce. Ao incentivar o autoexame e exames como a mamografia, a campanha busca reduzir a mortalidade por meio da detecção precoce, o que aumenta as chances de cura. Além disso, o movimento promove o acesso a informações, serviços de saúde e apoio emocional, quebrando estigmas em torno da doença. O Outubro Rosa também fomenta o empoderamento feminino, lembrando as mulheres da importância de cuidar de sua saúde e buscar ajuda. </p>
         </div>
 </section>
 
 </div>
 
-<!-- SITE SETEMBRO AMARELO -->
-
-<div class="container-texto">
-
-    <div class="titulo-site">
-    <h2>Confira nosso site sobre o <span class="set">Setembro amarelo</span></h2>
-</div>
-
-<p>Setembro Amarelo é o mês (de 1 a 30 de setembro) dedicado à prevenção do suicídio. Trata-se de uma campanha, que teve início no Brasil em 2015, e que visa conscientizar as pessoas sobre o suicídio, bem como evitar o seu acontecimento. Setembro Amarelo é o mês (de 1 a 30 de setembro) dedicado à prevenção do suicídio.</p>
-</div>
 
 
-<!-- BACKGROUND SITE -->
- 
-<div class="wrapper" id="inicio">
-    
-    <section class="modulo parallax parallax-2">
-    </section>
 
-    <section class="modulo content">
-        <div class="container-2">
+
+
+
+
+
+<div class="container-box">
+
+    <div class="box">
+
+        <div class="foto">
+            <img src="https://pbs.twimg.com/profile_images/1316183322192568330/QFz_ARWk_400x400.jpg" alt="">
         </div>
-</section>
-
-</div>
-</div>
-
-<!-- SETEMBRO AMARELO -->
-
-<div class="background-geral">
-    <div class="img-site">
-        <img src="https://www.shutterstock.com/image-illustration/realistic-mockup-template-phone-your-600nw-2468878159.jpg" alt="">
-    </div>
-
-    <div class="texto">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam unde architecto eaque quasi? Dicta excepturi quasi at quos rem explicabo dolore blanditiis impedit, odit, reiciendis, veritatis similique laudantium quas quaerat?</p>
-
-        <div class="icone-site">
-           <a href=""><i class="fa-solid fa-globe"></i>
-        aaaaaaaaaaaaaaaaaaaaaaaaaaa</a>
+        
+        <div class="texto-titulo">
+            <h1> Susan Wojcicki </h1>
+            <p>"A educação é a chave para o sucesso, e isso é especialmente verdadeiro para meninas e mulheres."</p>
+           
+            <div class="btn-box">
+                <a href=""> Saiba Mais </a>
+            </div>
         </div>
     </div>
+
+    <!-- Alicia Keys -->
+    <div class="box">
+
+        <div class="foto">
+            <img src="https://monkeybuzz.com.br/wp-content/uploads/2016/11/alicia-keys-here-5825a2baeb8bf.jpg" alt="">
+        </div>
+        
+        <div class="texto-titulo">
+            <h1> Alicia Keys </h1>
+            <p>"Algumas pessoas pensam que as coisas materiais definem o que elas são por dentro"</p>
+           
+            <div class="btn-box">
+                <a href=""> Saiba Mais </a>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Melinda Gates -->
+    <div class="box">
+
+        <div class="foto">
+            <img src="https://monkeybuzz.com.br/wp-content/uploads/2016/11/alicia-keys-here-5825a2baeb8bf.jpg" alt="">
+        </div>
+        
+        <div class="texto-titulo">
+            <h1> Melinda Gates </h1>
+            <p>"A educação é a chave para o sucesso, e isso é especialmente verdadeiro para meninas e mulheres."</p>
+           
+            <div class="btn-box">
+                <a href=""> Saiba Mais </a>
+            </div>
+        </div>
+    </div>
 </div>
 
 
 
 
+
+<!-- ACESSIBILIDADE -->
+<script src="https://cdn.userway.org/widget.js" data-account="kCDHqw9ltL"></script>
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+
+<!-- LIBRAS -->
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+
+     <footer>
+        <div class="logo-footer">
+            <img src="https://artpoin.com/wp-content/uploads/2023/10/artpoin-outubro-rosa.png" alt="">
+        </div>
+
+        <div class="outubro">
+            <h2> Sobre o Outubro Rosa<i class="bi bi-arrow-down"></i></h2>
+        </div>
+
+        <div class="sobre-outubro">
+            <p>O Setembro Amarelo surgiu com a ideia de quebrar tabus, reduzir estigmas, estimular que as pessoas
+                busquem e ofereçam ajuda. Desde 2015, quando ocorreu a primeira edição, ano a ano este movimento vem
+                crescendo com mais pessoas reconhecendo que falar sobre suicídio é fundamental, mas exige cuidados.</p>
+        </div>
+
+        <div class="precisar">
+            <h3>Núcleo Mama do Hospital Moinhos de Vento</h3>
+            <h2>Cuidar da saúde é um ato de amor!</h2>
+            <p><i class="bi bi-telephone-inbound"></i> Disque <strong>(51) 3314-3434</strong></p>
+        </div>
+
+        <div class="logo-pao">
+            <img src="logo-pao.png" alt="">
+        </div>
+
     
+        <div class="desenvolvedores">
+            <a href="linktree.html"><h2>Desenvolvedores <i class="bi bi-arrow-down"></i></h2></a>
+            <p>Desenvolvido pela equipe <strong>Conscientiza.r</strong> | Fundação Pão dos Pobres | 2024&copy;</p>
+        </div>
+    </footer>
+
+
 </body>
 </html>
