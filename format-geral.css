@@ -57,6 +57,7 @@ html {
     transition: all .5s ease-in-out;
     background-color: white;
 
+    
 }
 
 
@@ -326,6 +327,8 @@ section{
     background-color: var(--rosa-dark);
 }
 
+
+
 /* PARALLAX */
 
 .wrapper{
@@ -344,9 +347,6 @@ section{
     border: solid 2px var(--rosa-dark);
 }
 
-.pzinho{
-    background-color: var(--rosa-light);
-}
 
 section.modulo p{
     margin-bottom: 20px;
@@ -373,7 +373,7 @@ section.modulo span{
 
 section.modulo.content{
     padding: 40px 0;
-    background: var(--amarelo);
+    background: var(--rosa);
 
 }
 
@@ -396,7 +396,7 @@ section.modulo.parallax h1{
     text-shadow: 2px 2px 5px rgb(0, 0, 0);
     text-align: center;
     font-size: 3em;
-    font-family: fonte1;
+    font-family: sans-serif;
     z-index: 50;
 
 }
@@ -407,271 +407,89 @@ section.modulo.parallax:after{
     width: 100%;
     z-index: 8; 
     position: absolute;
-    background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0, 0,0,0) 50%, var(--amarelo)) ;
+    /* background: linear-gradient(to bottom, rgba(0,0,0,0) 0, rgba(0, 0,0,0) 50%, var(--)) ; */
     
 }
 
     section.modulo.parallax-1{
         
-        background-image: url(https://apas.com.br/wp-content/uploads/2023/09/Wallpaper-1-1024x576.png);
+        background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/2023-04-13t230645z-1088646593-rc2wd0a5kkdb-rtrmadp-3-imf-worldbank.JPG?c=16x9);
     }
 
     /* Lisa Su Parallax */
     section.modulo.parallax-2{
-        background-image: url(https://obidos.pa.gov.br/wp-content/uploads/2022/10/Capa-Outubro-Rosa-Horizontal.png);
+        
+        background-image: url(https://f.i.uol.com.br/fotografia/2024/05/13/171562124466424d7c4a47d_1715621244_3x2_md.jpg);
     }
 
 
-/* CARDS DAS MULHERES */
-
-.titulo-sobre{
-    text-align: center;
-    margin-bottom: 2em;
-}
-
-.container-box{
-    display: flex;
-    flex-direction: row ;
-    text-align: center;
-    gap: 1em;
-}
-
-@media screen and (max-width: 1020px) {
-
-    .container-box{
-        display: flex;
-        flex-direction: column ;
-        text-align: center;
-    }
-
-}
-
+/* MELINDA GATES FORMATAÇÃO */
 
 .box{
-    padding: 1.5em;
-    margin: 1em;
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: var(--rosa);
+    background-color: var(--rosa-light);
+    padding: 1em;
     box-shadow: -10px 10px var(--rosa-dark) ;
 }
 
-.foto img{
-    width: 90%;
-}
 
-.texto-titulo{
-    font-size: 1.2em;
-}
-
-.texto-titulo h1{
-    margin-bottom: 1.3em;
-}
-
-
-/* BOTAO SAIBA MAIS */
-.btn-box{
+.sobre{
     margin-top: 3em;
+    padding: 1.5em;
+    border-left: solid var(--rosa-dark);
+    border-bottom: solid var(--rosa-dark);
+    text-align: center;
 }
 
-.btn-box a{
-    color: black;
-    text-decoration: none;
-    background-color: var(--branco);
-    padding: 1em;
-    border-radius: 2em;
+/* HISTORIA */
+.titulo-hist{
+    margin-bottom: 3em;
+    text-align: center;
+}
+
+.historia{
+    text-align: center;
+    margin: 2em;
+
+}
+
+.container-sobre span{
+    font-size: 1.2em;
+    color: var(--rosa-dark);
+}
+
+.container-sobre p{
+    margin: 1em;
+    
+}
+
+
+
+
+
+
+
+
+
+  /* GALERIA */
+
+  .galeria-h1{
+    text-align: center;
+}
+
+.foto-galeria img{
+    width: 100%;
+    opacity: .5;
     transition: all .5s ease-in-out;
+    border-radius: 10px;
 }
 
-.btn-box a:hover{
-    text-decoration: none;
-    background-color: transparent;
-    border: solid var(--branco);
-    padding: 1em;
-    border-radius: 2em;
+.foto-galeria img:hover{
+    opacity: 1;
 }
 
+.foto-galeria{
+    margin-bottom: 10em;
+    column-count: 2;
+    column-gap: 10px;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-/* FOOOOOOOOTEEEEEEEEEEEEEEEEEEER */
-
-    footer {
-        padding: 15px 7%;
-        box-shadow: 0 0 50px #fff;
-    }
-
-    .titulos-footer h2 {
-        font-family: fonte1;
-        margin-left: 18%;
-        font-size: 30px;
-    }
-    
-    .titulos-footer h3 {
-        margin-left: 28%;
-        font-family: sans-serif;
-        text-transform: uppercase;
-        font-weight: 800;
-        margin-top: -22px;
-        font-size: 35px;
-    }
-    
-    .titulos-footer h4 {
-        margin-left: 32%;
-        font-family: sans-serif;
-        text-transform: uppercase;
-        font-weight: 800;
-        margin-top: -15px;
-        font-size: 35px;
-    }
-    
-    .logo-footer{
-        margin-top: 10em;
-         display: flex;
-         align-items: center;
-         justify-content: center;
-    }
-
-    .logo-footer img{
-        width: 20%;
-    }
-
-    @media screen and (max-width: 1020px) {
-
-        .logo-footer img{
-            width: 50%;
-        }
-    
-    }
-    
-    
-    .outubro h2 {
-        text-align: center;
-        font-family: sans-serif;
-        font-size: 15px;
-        border: 2px solid var(--rosa-dark);
-        border-radius: 20px;
-        padding: 8px 25px;
-    }
-    
-    .dark-mode .outubro h2{
-        border: solid 2px #fff;
-        background-color: #000;
-        color: #fff;
-    }
-    
-    .outubro {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-    .significado h2{
-        background-color: transparent;
-        color: #fff;
-        border: solid var(rosa);
-        border-radius: 20px 20px 5px 20px;
-        text-align: center;
-        padding: 8px 15px;
-        font-size: 22px;
-        font-family: sans-serif;
-    }
-    
-    .significado {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 20px 0;
-    }
-    
-    .sobre-outubro{
-        background-color: var(--rosa);
-        padding: 12px 20px;
-        margin: 20px 0;
-        border-radius: 20px;
-    }
-    
-    .sobre-outubro p{
-        color: white;
-        font-family: "Poppins", sans-serif;
-        font-size: 15px
-    }
-    
-    .precisar{
-        text-align: center;
-        font-family: "Poppins", sans-serif;
-        text-transform: uppercase;
-    }
-
-    .precisar strong{
-        color: var(--rosa);
-    }
-    
-    .precisar h2{
-        font-size: 16px;
-        color: var(--rosa-dark);
-    }
-    
-    .precisar p{
-        font-size: 18px;
-    }
-    
-    .precisar h3{
-        font-size: 13px;
-    }
-    
-    .dark-mode .precisar{
-        color: #fff;
-    }
-    
-    .desenvolvedores{
-        font-family: "Poppins", sans-serif;
-        padding: 10px 0;
-    }
-    
-    .desenvolvedores h2{
-        font-size: 18px;
-    }
-    
-    .desenvolvedores p{
-        text-align: center;
-        font-size: 15px;
-    }
-    
-    .desenvolvedores a{
-        text-decoration: none;
-        list-style-type: none;
-        color: #000;
-    }
-    
-    .logo-pao{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        background: #fff;
-        border-radius: 20px;
-        margin: 20px 0;
-    }
-    
-    .dark-mode .titulos-footer {
-        color: #fff;
-    }
-    
-    .dark-mode .desenvolvedores{
-        color: #fff;
-    }
-    
-    .dark-mode .desenvolvedores h2{
-        color: #fff;
-    }
