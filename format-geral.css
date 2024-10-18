@@ -423,7 +423,9 @@ section.modulo.parallax:after{
     }
 
 
-/* MELINDA GATES FORMATAÇÃO */
+
+
+/*FORMATAÇÃO-------------------- */
 
 .box{
     background-color: var(--rosa-light);
@@ -452,23 +454,64 @@ section.modulo.parallax:after{
 
 }
 
+.sobre{
+   margin: auto;
+    width: 70%;
+    
+}
+
+.container-sobre h1{
+    text-align: center;
+    margin-top: 2em;
+    border-top: solid var(--rosa);
+}
+
 .container-sobre span{
     font-size: 1.2em;
     color: var(--rosa-dark);
 }
 
 .container-sobre p{
-    margin: 1em;
+    margin: 1.5em;
     
 }
 
+/* TRABALHOS */
 
+.trabalhos{
+    border-top: solid var(--rosa);
+    text-align: center;
+    box-shadow: 0 0 20px var(--rosa);
+}
 
+.box-trab {
+   border-top: solid var(--rosa-dark);
+   padding: 1em;
 
+}
 
+.box-trab img{
+    margin-top: 4em;
+    width: 20%;
+}
 
+@media screen and (max-width: 1020px) {
+    .box-trab img{
+        margin-top: 4em;
+        width: 70%;
+    }
 
+}
 
+.titulo-trab{
+    text-align: center;
+    
+}
+
+.box-trab p{
+    font-size: 1.3em;
+    margin-top: 2em;
+}
 
   /* GALERIA */
 
@@ -488,8 +531,209 @@ section.modulo.parallax:after{
 }
 
 .foto-galeria{
+    margin-top: 5em;
     margin-bottom: 10em;
     column-count: 2;
     column-gap: 10px;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* FOOOOOOOOTEEEEEEEEEEEEEEEEEEER */
+
+footer {
+    padding: 15px 7%;
+    box-shadow: 0 0 50px #fff;
+}
+
+.titulos-footer h2 {
+    font-family: fonte1;
+    margin-left: 18%;
+    font-size: 30px;
+}
+
+.titulos-footer h3 {
+    margin-left: 28%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: -22px;
+    font-size: 35px;
+}
+
+.titulos-footer h4 {
+    margin-left: 32%;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    font-weight: 800;
+    margin-top: -15px;
+    font-size: 35px;
+}
+
+.logo-footer{
+    margin-top: 10em;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+}
+
+.logo-footer img{
+    width: 20%;
+}
+
+@media screen and (max-width: 1020px) {
+
+    .logo-footer img{
+        width: 50%;
+    }
+
+}
+
+
+.outubro h2 {
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 15px;
+    border: 2px solid var(--rosa-dark);
+    border-radius: 20px;
+    padding: 8px 25px;
+}
+
+.dark-mode .outubro h2{
+    border: solid 2px #fff;
+    background-color: #000;
+    color: #fff;
+}
+
+.outubro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.significado h2{
+    background-color: transparent;
+    color: #fff;
+    border: solid var(rosa);
+    border-radius: 20px 20px 5px 20px;
+    text-align: center;
+    padding: 8px 15px;
+    font-size: 22px;
+    font-family: sans-serif;
+}
+
+.significado {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.sobre-outubro{
+    background-color: var(--rosa);
+    padding: 12px 20px;
+    margin: 20px 0;
+    border-radius: 20px;
+}
+
+.sobre-outubro p{
+    color: white;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px
+}
+
+.precisar{
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+}
+
+.precisar strong{
+    color: var(--rosa);
+}
+
+.precisar h2{
+    font-size: 16px;
+    color: var(--rosa-dark);
+}
+
+.precisar p{
+    font-size: 18px;
+}
+
+.precisar h3{
+    font-size: 13px;
+}
+
+.dark-mode .precisar{
+    color: #fff;
+}
+
+.desenvolvedores{
+    font-family: "Poppins", sans-serif;
+    padding: 10px 0;
+}
+
+.desenvolvedores h2{
+    font-size: 18px;
+}
+
+.desenvolvedores p{
+    text-align: center;
+    font-size: 15px;
+}
+
+.desenvolvedores a{
+    text-decoration: none;
+    list-style-type: none;
+    color: #000;
+}
+
+.logo-pao{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    border-radius: 20px;
+    margin: 20px 0;
+}
+
+.dark-mode .titulos-footer {
+    color: #fff;
+}
+
+.dark-mode .desenvolvedores{
+    color: #fff;
+}
+
+.dark-mode .desenvolvedores h2{
+    color: #fff;
+}
