@@ -327,7 +327,6 @@ section{
 }
 
 
-
 /* PARALLAX */
 
 .wrapper{
@@ -410,15 +409,36 @@ section.modulo.parallax:after{
     
 }
 
+/* MELINDA */
     section.modulo.parallax-1{
         
         background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/2023-04-13t230645z-1088646593-rc2wd0a5kkdb-rtrmadp-3-imf-worldbank.JPG?c=16x9);
     }
 
-    /* Lisa Su Parallax */
     section.modulo.parallax-2{
         
-        background-image: url(https://f.i.uol.com.br/fotografia/2024/05/13/171562124466424d7c4a47d_1715621244_3x2_md.jpg);
+        background-image: url(https://fortune.com/img-assets/wp-content/uploads/2024/05/GettyImages-1258986825.jpg?w=1440&q=75);
+    }
+
+    /* Lisa Su Parallax */
+    section.modulo.parallax-lisa-su{
+        
+        background-image: url(https://cdn.wccftech.com/wp-content/uploads/2023/06/AMD-Instinct-MI300-Exascale-APUs-1456x971.jpeg);
+    }
+    section.modulo.parallax-lisa-su{
+        
+        background-image: url(https://i.cdn.newsbytesapp.com/images/l71020230602133556.jpeg);
+    }
+
+    /* Alcia Keys Parallax */
+    section.modulo.parallax-3{
+        
+        background-image: url(https://poltronavip.com/wp-content/uploads/2020/09/ALICIA-KEYS-ALICIA-ALBUM.jpg);
+    }
+
+    section.modulo.parallax-4{
+        
+        background-image: url(https://ogimg.infoglobo.com.br/in/24327993-f2c-dcf/FT1086A/GettyImages-621161488-1.jpg);
     }
 
 
@@ -432,6 +452,10 @@ section.modulo.parallax:after{
     box-shadow: -10px 10px var(--rosa-dark) ;
 }
 
+.box p{
+    font-size: 1.4em;
+}
+
 
 .sobre{
     margin-top: 4em;
@@ -439,6 +463,10 @@ section.modulo.parallax:after{
     border-left: solid var(--rosa-dark);
     border-bottom: solid var(--rosa-dark);
     text-align: center;
+}
+
+.sobre p{
+    font-size: 1.3em;
 }
 
 /* HISTORIA */
@@ -451,7 +479,7 @@ section.modulo.parallax:after{
 .historia{
     text-align: center;
     margin: 2em;
-
+    
 }
 
 .sobre{
@@ -463,6 +491,7 @@ section.modulo.parallax:after{
 .container-sobre h1{
     text-align: center;
     margin-top: 2em;
+    font-size: 3em;
     border-top: solid var(--rosa);
 }
 
@@ -473,7 +502,7 @@ section.modulo.parallax:after{
 
 .container-sobre p{
     margin: 1.5em;
-    
+    font-size: 1.3em;   
 }
 
 /* TRABALHOS */
@@ -487,15 +516,24 @@ section.modulo.parallax:after{
 .box-trab {
    border-top: solid var(--rosa-dark);
    padding: 1em;
-
+   align-items: center;
+   display: flex;
 }
+
+
 
 .box-trab img{
     margin-top: 4em;
-    width: 20%;
+    width: 25%;
 }
 
 @media screen and (max-width: 1020px) {
+    .box-trab{
+        align-items: center;
+        flex-direction: column;
+        display: flex;
+    }
+   
     .box-trab img{
         margin-top: 4em;
         width: 70%;
