@@ -346,6 +346,7 @@ section{
 
 .pzinho{
     background-color: var(--rosa-light);
+    
 }
 
 section.modulo p{
@@ -427,6 +428,10 @@ section.modulo.parallax:after{
 .titulo-sobre{
     text-align: center;
     margin-bottom: 2em;
+}
+
+.dark-mode .titulo-sobre{
+    color: white;
 }
 
 .container-box{
