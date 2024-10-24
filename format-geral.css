@@ -442,12 +442,24 @@ section.modulo.parallax:after{
     }
 
 
+/* PARALLAX SUSAN */
+    section.modulo.parallax-5{
+        
+        background-image: url(https://media.cnn.com/api/v1/images/stellar/prod/gettyimages-978599724.jpg?c=16x9&q=h_833,w_1480,c_fill);
+    }
+
+    section.modulo.parallax-6{
+        
+        background-image: url(https://variety.com/wp-content/uploads/2018/05/susan_wojcicki-youtube.jpg);
+    }
+
+
 
 
 /*FORMATAÇÃO-------------------- */
 
 .box{
-    background-color: var(--rosa-light);
+    background-color: var(--rosa);
     padding: 1em;
     box-shadow: -10px 10px var(--rosa-dark) ;
 }
@@ -498,6 +510,10 @@ section.modulo.parallax:after{
 .container-sobre span{
     font-size: 1.2em;
     color: var(--rosa-dark);
+}
+
+.historia span{
+    color: white;
 }
 
 .container-sobre p{
