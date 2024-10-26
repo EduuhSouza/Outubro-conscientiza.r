@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+
+    <link rel="stylesheet" href="format-geral.css">
+    <link rel="shortcut icon" href="imgs/logo.conscientiza.r.png">
+  
+   <!-- ICONES -->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <link rel="shortcut icon" href="imgs/logo.conscientizar.rosa-removebg-preview.png">
+  
+    <!-- FONTES -->
+  
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  
+  <!-- DATA AOS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+      <!-- javascript MENU MOBILE -->
+  <script src="menu.js" defer></script>
+      <!-- FIM javascript MENU MOBILE -->
+  
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Jennifer Doudna</title>
+</head>
+<body>
+    
+    <header class="header">
+        <div class="logo-img">
+        <a href="index.html"><img src="imgs/logo.conscientizar.rosa.jpg" alt=""></a>
+    </div>
+
+    <!-- DARKMODE -->
+
+<section class="darkmode">
+
+    <label>
+        <input id="check" type="checkbox" id="check">
+
+        <i class="fa-solid fa-sun" id="sun"></i>
+        <i class="fa-solid fa-moon" id="moon"></i>
+
+        <span class="toggle"></span>
+    </label>
+
+</section>
+
+<script>
+    const check = document.getElementById('check');
+
+    check.addEventListener('click', () => {
+        document.body.classList.toggle('dark-mode');
+    })
+</script>
+       
+<nav class="navbar">
+    <a href="index.html"> Início </a>
+    <a href="#historia"> História </a>
+    <a href="#carreira"> Carreira </a>
+    <a href="#sobre"> Sobre </a>
+</nav>
+
+<!-- MOBILE -->
+
+<div class="btn-abrir-menu" id="btn-menu"> <!-- COMEÇO ABRIR MENU -->
+    <i class="fa-solid fa-bars"></i>
+</div> <!-- FINAL ABRIR MENU -->
+
+<div class="menu-mobile" id="menu-mobile"> <!-- COMEÇO MENU MOBILE-->
+    <div class="btn-fechar">
+        <i class="fa-solid fa-xmark"></i>
+    </div>
+
+    <nav class="mobile-nav">  <!-- COMEÇO NAVBAR MENU -->
+        <a href="index.html"> Início </a>
+        <a href="#historia"> História </a>
+        <a href="#carreira"> Carreira </a>
+        <a href="#sobre"> Sobre </a>
+    </nav> <!-- FINAL NAVBAR MENU -->
+</div> <!-- FINAL MENU MOBILE-->
+<div class="overlay-menu" id="overlay-menu"></div>
+
+<!-- FIM MOBILE -->
+</header>
+
+<!-- PARALLAX -->
+
+<div class="wrapper" id="inicio">
+    <section class="modulo parallax parallax-jennifer">
+    </section>
+</div>
+
+<div class="sobre" data-aos="fade-right"
+data-aos-offset="300"
+data-aos-easing="ease-in-sine">
+    <p> Dr. Jennifer Doudna, renomada bioquímica e co-desenvolvedora da tecnologia CRISPR, é uma influente figura na indústria de tecnologia. Ela tem promovido a importância da pesquisa em saúde feminina e contribuído para o avanço de inovações que podem impactar o tratamento do câncer de mama.</p>
+</div>
+
+ <!-- HISTORIA -->
+
+ <div class="titulo-hist">
+    <h1> História </h1>
+</div>
+
+<div class="box" data-aos="fade-up"
+data-aos-duration="1000">
+    <div class="historia" id="historia">
+        <p>Formada em Bioquímica pela Universidade da Califórnia, Berkeley, Dr. Doudna começou sua carreira na pesquisa genética e rapidamente se destacou por suas contribuições inovadoras. Ela é reconhecida mundialmente por seu trabalho com CRISPR-Cas9, que permite edições precisas no DNA.</p>
+    </div>
+</div>
+
+<!-- PARALLAX -->
+
+<div class="wrapper" id="inicio">
+    <section class="modulo parallax parallax-jennifer-doudna">
+    </section>
+</div>
+
+<!-- TRABALHOS -->
+
+<br>
+
+<div class="trabalhos" id="carreira">
+
+    <div class="titulo-trab">
+        <h1> Carreira </h1>
+    </div>
+
+    <div class="box-trab" data-aos="fade-up"
+    data-aos-duration="1000">
+        <img src="https://th.bing.com/th/id/R.dd7bf4dd77e9b46a3b2778fea628b087?rik=0ZRurL1CT8McyA&pid=ImgRaw&r=0" alt="Dr. Jennifer Doudna">
+        <p>Durante sua carreira, Dr. Doudna liderou pesquisas que resultaram na criação da tecnologia CRISPR-Cas9, uma ferramenta poderosa que pode ser usada para desenvolver novas abordagens no tratamento do câncer de mama.</p>
+    </div>
+
+    <div class="box-trab">
+        <img src="https://th.bing.com/th?id=OSK.HEROe4oX5673Do6jTLonmap_Or40HHALBr2Zthm1mnFh69E&w=296&h=176&c=13&rs=2&o=6&dpr=1.1&pid=SANGAM" alt="Tecnologia CRISPR">
+        <p>Além disso, ela tem colaborado com instituições de saúde para aplicar suas descobertas na prática clínica, buscando formas de personalizar tratamentos para pacientes com câncer.</p>
+    </div>
+
+    <div class="box-trab">
+        <img src="https://th.bing.com/th/id/R.029cf59a14fc4bf4143ded671b35d1ac?rik=GwAnPnAMANUSow&pid=ImgRaw&r=0" alt="Mentoria">
+        <p>Dr. Doudna também atua como mentora para jovens cientistas e mulheres em STEM, incentivando-as a se envolverem em pesquisas que promovam a saúde feminina.</p>
+    </div>
+</div>
+
+<!-- IMPACTO E INFLUÊNCIA -->
+
+<div class="container-sobre" id="sobre">
+    <h1> Impacto e Influência </h1>
+    <p> Além de suas contribuições científicas, Dr. Jennifer Doudna tem sido uma voz ativa na defesa da saúde feminina. Ela acredita que inovações tecnológicas são essenciais para melhorar os tratamentos do câncer de mama e incentiva mais investimento em pesquisa nessa área.</p>
+</div>
+
+<!-- GALERIA -->
+
+<div class="foto-galeria">
+    <img src="https://th.bing.com/th/id/OIP.kcXz7ky0s85cJQeO-7A3hAHaHq?rs=1&pid=ImgDetMain" alt="Dr. Jennifer Doudna em evento">
+
+    <img src="https://www.bigislandvideonews.com/wp-content/uploads/2018/09/2018-09-19-doudna.jpg" alt="Dr. Jennifer Doudna">
+
+    <img src="https://th.bing.com/th/id/OIP.ULKq0igg-n_HYO1O4x95uQHaE8?rs=1&pid=ImgDetMain" alt="Dr. Jennifer Doudna">
+
+    <img src="https://www.britvic.com/media/hpllx1ue/joanne-wilson.jpg?anchor=center&mode=crop&width=450&height=500&rnd=132912167583270000" alt="Dr. Jennifer Doudna Nobel Prize Ceremony">
+
+    <img src="https://th.bing.com/th/id/OIP.uzz91VKdsgHBivJAwvTEbQHaEK?rs=1&pid=ImgDetMain" alt="Dr. Jennifer Doudna">
+
+ 
+</div>
+<!-- FIM GALERIA -->
+ 
+<!-- DATA AOS -->
+<script>
+    AOS.init();
+</script>
+
+<!-- ACESSIBILIDADE -->
+<script src="https://cdn.userway.org/widget.js" data-account="kCDHqw9ltL"></script>
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+
+<!-- LIBRAS -->
+<div vw class="enabled">
+  <div vw-access-button class="active"></div>
+  <div vw-plugin-wrapper>
+    <div class="vw-plugin-top-wrapper"></div>
+  </div>
+</div>
+<script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+<script>
+  new window.VLibras.Widget('https://vlibras.gov.br/app');
+</script>
+
+<footer>
+    <div class="logo-footer">
+        <img src="https://artpoin.com/wp-content/uploads/2023/10/artpoin-outubro-rosa.png" alt="">
+    </div>
+
+    <div class="outubro">
+        <h2> Sobre o Outubro Rosa <i class="bi bi-arrow-down"></i></h2>
+    </div>
+
+        <div class="sobre-outubro">
+            <p>Outubro Rosa alerta sobre a prevenção e o diagnóstico precoce do câncer de mama. Celebrado anualmente desde os anos 90, o mês de Outubro é conhecido mundialmente por suas ações afirmativas relacionadas a essa causa.</p>
+        </div>
+
+        <div class="precisar">
+            <h3>Núcleo Mama do Hospital Moinhos de Vento</h3>
+            <h2>Cuidar da saúde é um ato de amor!</h2>
+            <p><i class="bi bi-telephone-inbound"></i> Disque <strong>(51) 3314-3434</strong></p>
+        </div>
+
+        <div class="logo-pao">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRfFtC243VYlU4lkBQmtB37VFBQREsdpp0ggw&s" alt="">
+        </div>
+
+    
+        <div class="desenvolvedores">
+            <a href="linktree.html"><h2>Desenvolvedores <i class="bi bi-arrow-down"></i></h2></a>
+            <p>Desenvolvido pela equipe <strong>Conscientiza.r</strong> | Fundação Pão dos Pobres | 2024&copy;</p>
+        </div>
+    </footer>
+
+</body>
+</html>
