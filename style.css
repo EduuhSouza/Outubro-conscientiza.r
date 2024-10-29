@@ -346,6 +346,7 @@ section{
 
 .pzinho{
     background-color: var(--rosa-light);
+    filter: drop-shadow(15px 15px 0px var(--rosa));
     
 }
 
